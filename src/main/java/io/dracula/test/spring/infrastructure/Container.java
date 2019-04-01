@@ -49,4 +49,15 @@ public class Container {
     public void setAnotherBaseList(List<Base> anotherBaseList) {
         this.anotherBaseList = anotherBaseList;
     }
+
+    private Map<String, Base> anotherBaseBeanMap;
+
+    public Map<String, Base> getAnotherBaseBeanMap() {
+        return anotherBaseBeanMap;
+    }
+
+    @Autowired
+    public void setAnotherBaseBeanMap(Map<String, Base> anotherBaseBeanMap) {
+        this.anotherBaseBeanMap = anotherBaseBeanMap;
+    }
 }

@@ -20,6 +20,7 @@ public class MainTest {
     public void testMap(){
         System.out.println("map = " + container.getBaseBeanMap());
         System.out.println("list = " + container.getBaseList());
+        System.out.println("another map = " + container.getAnotherBaseBeanMap());
         System.out.println("another list = " + container.getAnotherBaseList());
     }
 
